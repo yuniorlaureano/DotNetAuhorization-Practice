@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try", "Try\Try.csproj", "{CCC1C5F1-814A-42A7-A0CF-3903CC1EAAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiJwt", "WebApiJwt\WebApiJwt.csproj", "{A2173F73-8F68-4948-987C-16A60093F340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCC1C5F1-814A-42A7-A0CF-3903CC1EAAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCC1C5F1-814A-42A7-A0CF-3903CC1EAAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCC1C5F1-814A-42A7-A0CF-3903CC1EAAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCC1C5F1-814A-42A7-A0CF-3903CC1EAAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2173F73-8F68-4948-987C-16A60093F340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2173F73-8F68-4948-987C-16A60093F340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2173F73-8F68-4948-987C-16A60093F340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2173F73-8F68-4948-987C-16A60093F340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {614C2753-781E-432B-A506-2D22C7CECF17}
+	EndGlobalSection
+EndGlobal

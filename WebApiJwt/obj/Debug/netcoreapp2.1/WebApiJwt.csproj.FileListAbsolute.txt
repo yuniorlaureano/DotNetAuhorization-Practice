@@ -1,0 +1,14 @@
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\bin\Debug\netcoreapp2.1\WebApiJwt.deps.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\bin\Debug\netcoreapp2.1\WebApiJwt.runtimeconfig.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\bin\Debug\netcoreapp2.1\WebApiJwt.runtimeconfig.dev.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\bin\Debug\netcoreapp2.1\WebApiJwt.dll
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.csprojAssemblyReference.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.csproj.CoreCompileInputs.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.RazorAssemblyInfo.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.RazorAssemblyInfo.cs
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.AssemblyInfoInputs.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.AssemblyInfo.cs
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.RazorTargetAssemblyInfo.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\bin\Debug\netcoreapp2.1\WebApiJwt.pdb
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.dll
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\WebApiJwt\obj\Debug\netcoreapp2.1\WebApiJwt.pdb

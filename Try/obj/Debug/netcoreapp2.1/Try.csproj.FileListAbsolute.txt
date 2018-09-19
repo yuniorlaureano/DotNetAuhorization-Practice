@@ -1,0 +1,11 @@
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\bin\Debug\netcoreapp2.1\Try.deps.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\bin\Debug\netcoreapp2.1\Try.runtimeconfig.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\bin\Debug\netcoreapp2.1\Try.runtimeconfig.dev.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\bin\Debug\netcoreapp2.1\Try.dll
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\bin\Debug\netcoreapp2.1\Try.pdb
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\obj\Debug\netcoreapp2.1\Try.csprojAssemblyReference.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\obj\Debug\netcoreapp2.1\Try.csproj.CoreCompileInputs.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\obj\Debug\netcoreapp2.1\Try.AssemblyInfoInputs.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\obj\Debug\netcoreapp2.1\Try.AssemblyInfo.cs
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\obj\Debug\netcoreapp2.1\Try.dll
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\Try\obj\Debug\netcoreapp2.1\Try.pdb
