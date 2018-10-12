@@ -59,6 +59,9 @@ namespace AspNetSecurity_NoSecurity
                 .ReportUris(r => r.Uris("/report"));
             });
 
+            //Click jacking, for avoiding this page to be shown in an iframe
+            app.UseXfo(o => o.Deny());
+
             app.UseDeveloperExceptionPage();
 
             app.UseStaticFiles();
