@@ -6,6 +6,7 @@ namespace AspNetSecurity_NoSecurity.Controllers
 {
     public class ConferenceController: Controller
     {
+        
         private readonly ConferenceRepo repo;
 
         public ConferenceController(ConferenceRepo repo)

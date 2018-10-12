@@ -30,6 +30,11 @@ namespace AspNetSecurity_NoSecurity
         {
             services.AddMvc();
 
+            services.AddCors(options => 
+            {
+                options.AddPolicy("AllowBankCom", c => c.WithOrigins("https://bank.com"));
+            });
+
             if (!_env.IsDevelopment())
             {
                 services.Configure<MvcOptions>(options => 
@@ -65,6 +70,10 @@ namespace AspNetSecurity_NoSecurity
             app.UseDeveloperExceptionPage();
 
             app.UseStaticFiles();
+
+            //This allow other domain to access our endpoints
+            app.UseCors(c => c.AllowAnyOrigin());
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

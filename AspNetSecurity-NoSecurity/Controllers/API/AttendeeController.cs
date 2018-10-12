@@ -1,10 +1,12 @@
 ﻿using AspNetSecurity_NoSecurity.Models;
 using AspNetSecurity_NoSecurity.Repositories;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetSecurity_NoSecurity.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("AllowBankCom")]
     public class AttendeeController: Controller
     {
         private readonly AttendeeRepo repo;
