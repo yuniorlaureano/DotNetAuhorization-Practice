@@ -1,0 +1,7 @@
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\bin\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.deps.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\bin\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.runtimeconfig.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\bin\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.runtimeconfig.dev.json
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\bin\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.dll
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.AuthorizationPractice.csproj.CoreCompileInputs.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.AuthorizationPractice.AssemblyInfoInputs.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.AuthorizationPractice.AssemblyInfo.cs

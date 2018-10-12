@@ -729,10 +729,10 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
+      "Microsoft.AspNetCore.Http.Abstractions/2.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.0.0",
+          "Microsoft.AspNetCore.Http.Features": "2.0.2",
           "System.Text.Encodings.Web": "4.4.0"
         },
         "compile": {
@@ -757,7 +757,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Http.Features/2.0.0": {
+      "Microsoft.AspNetCore.Http.Features/2.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Primitives": "2.0.0"
@@ -2733,6 +2733,31 @@
         },
         "runtime": {
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
+        }
+      },
+      "NWebsec.AspNetCore.Core/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/NWebsec.AspNetCore.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NWebsec.AspNetCore.Core.dll": {}
+        }
+      },
+      "NWebsec.AspNetCore.Middleware/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.0.2",
+          "NWebsec.AspNetCore.Core": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NWebsec.AspNetCore.Middleware.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NWebsec.AspNetCore.Middleware.dll": {}
         }
       },
       "Remotion.Linq/2.1.1": {
@@ -5214,14 +5239,14 @@
         "microsoft.aspnetcore.http.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Abstractions/2.0.0": {
-      "sha512": "pblZLY7IfNqhQ5wwGQ0vNq2mG6W5YgZI1fk7suEuwZsGxGEADNBAyNlTALM9L8nMXdvbp6aHP/t4wHrFpcL3Sw==",
+    "Microsoft.AspNetCore.Http.Abstractions/2.0.2": {
+      "sha512": "yQM9JzPAExsxTqvJBBr3yC+6XyOETi2T/eOOBjrOOnYgQOO+7M7J8VvAW0wQID9zh7QqWO6kh3BGCT/aqvydtg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.abstractions/2.0.0",
+      "path": "microsoft.aspnetcore.http.abstractions/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "microsoft.aspnetcore.http.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.abstractions.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.http.abstractions.nuspec"
       ]
     },
@@ -5236,14 +5261,14 @@
         "microsoft.aspnetcore.http.extensions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Http.Features/2.0.0": {
-      "sha512": "yk62muzFTZTKCQuo3nmVPkPvGBlM2qbdSxbX62TufuONuKQrTGQ/SwhwBbYutk5/YY7u4HETu0n9BKOn7mMgmA==",
+    "Microsoft.AspNetCore.Http.Features/2.0.2": {
+      "sha512": "1U5fPSOtIq+cPuqJTjN+EFN3dWn4ptSjybd8minSbyhy0oXr8ujYla86kb9kM3rddUBgrGCyTp/hf0/tMZab+g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.http.features/2.0.0",
+      "path": "microsoft.aspnetcore.http.features/2.0.2",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.2.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.2.0.2.nupkg.sha512",
         "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
@@ -7555,6 +7580,28 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NWebsec.AspNetCore.Core/2.0.0": {
+      "sha512": "rBzLHzTQx7X3vcLbhcHPVgNUALl1mb2zoiIqNw/M7z4lda7WkvMbsHrb4+hh1lZVgeYp4qZwDbO8gAoPdnXmrQ==",
+      "type": "package",
+      "path": "nwebsec.aspnetcore.core/2.0.0",
+      "files": [
+        "lib/netstandard2.0/NWebsec.AspNetCore.Core.dll",
+        "lib/netstandard2.0/NWebsec.AspNetCore.Core.xml",
+        "nwebsec.aspnetcore.core.2.0.0.nupkg.sha512",
+        "nwebsec.aspnetcore.core.nuspec"
+      ]
+    },
+    "NWebsec.AspNetCore.Middleware/2.0.0": {
+      "sha512": "5PN4h7BLS9b4Hz6own0L1DqVrhpDnUKQaHDJGgkZz2efvZ9YwfAPE1yW7hVCpzNjLBYG3EV3xXWwIg0M5mXZUA==",
+      "type": "package",
+      "path": "nwebsec.aspnetcore.middleware/2.0.0",
+      "files": [
+        "lib/netstandard2.0/NWebsec.AspNetCore.Middleware.dll",
+        "lib/netstandard2.0/NWebsec.AspNetCore.Middleware.xml",
+        "nwebsec.aspnetcore.middleware.2.0.0.nupkg.sha512",
+        "nwebsec.aspnetcore.middleware.nuspec"
       ]
     },
     "Remotion.Linq/2.1.1": {
@@ -12529,7 +12576,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "NWebsec.AspNetCore.Middleware >= 2.0.0"
     ]
   },
   "packageFolders": {
@@ -12582,6 +12630,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "NWebsec.AspNetCore.Middleware": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           }
         },
         "imports": [

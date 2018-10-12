@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try", "Try\Try.csproj", "{CCC1C5F1-814A-42A7-A0CF-3903CC1EAAA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try", "Try\Try.csproj", "{CCC1C5F1-814A-42A7-A0CF-3903CC1EAAA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiJwt", "WebApiJwt\WebApiJwt.csproj", "{A2173F73-8F68-4948-987C-16A60093F340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiJwt", "WebApiJwt\WebApiJwt.csproj", "{A2173F73-8F68-4948-987C-16A60093F340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestClient.AuthorizationPractice", "ApiTestClient\ApiTestClient.AuthorizationPractice.csproj", "{8A976B99-11F8-4DF6-AFA3-6FEB91AEC83C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetSecurity-NoSecurity.AuthorizationPractice", "AspNetSecurity-NoSecurity\AspNetSecurity-NoSecurity.AuthorizationPractice.csproj", "{5BA1CD7E-97B5-4621-8894-CD98F2BD4643}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetSecurity-m1.AuthorizationPractice", "AspNetSecurity-m1\AspNetSecurity-m1.AuthorizationPractice.csproj", "{E05EA39E-5B7F-46B0-8EAD-B87249930418}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{A2173F73-8F68-4948-987C-16A60093F340}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2173F73-8F68-4948-987C-16A60093F340}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2173F73-8F68-4948-987C-16A60093F340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A976B99-11F8-4DF6-AFA3-6FEB91AEC83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A976B99-11F8-4DF6-AFA3-6FEB91AEC83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A976B99-11F8-4DF6-AFA3-6FEB91AEC83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A976B99-11F8-4DF6-AFA3-6FEB91AEC83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA1CD7E-97B5-4621-8894-CD98F2BD4643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA1CD7E-97B5-4621-8894-CD98F2BD4643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA1CD7E-97B5-4621-8894-CD98F2BD4643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA1CD7E-97B5-4621-8894-CD98F2BD4643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05EA39E-5B7F-46B0-8EAD-B87249930418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05EA39E-5B7F-46B0-8EAD-B87249930418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05EA39E-5B7F-46B0-8EAD-B87249930418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05EA39E-5B7F-46B0-8EAD-B87249930418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
