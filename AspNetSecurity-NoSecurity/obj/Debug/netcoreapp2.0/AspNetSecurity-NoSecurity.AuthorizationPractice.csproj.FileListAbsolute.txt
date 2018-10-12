@@ -5,3 +5,7 @@ C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\As
 C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.AuthorizationPractice.csproj.CoreCompileInputs.cache
 C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.AuthorizationPractice.AssemblyInfoInputs.cache
 C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.AuthorizationPractice.AssemblyInfo.cs
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\bin\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.pdb
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.AuthorizationPractice.csprojAssemblyReference.cache
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.dll
+C:\Users\yu.laureano\source\repos\AuthorizationPractice\AuthorizationPractice\AspNetSecurity-NoSecurity\obj\Debug\netcoreapp2.0\AspNetSecurity-NoSecurity.pdb

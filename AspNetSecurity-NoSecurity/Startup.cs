@@ -42,7 +42,10 @@ namespace AspNetSecurity_NoSecurity
             //The site need to be register in this website for the new browser update to remember
             //hstspreload.appspot.com
             //First we need to install nwebsec for using this middleware
-            app.UseHsts(h => h.MaxAge(days: 365).Preload());//this will enforce that the first request is made through https
+            if (!_env.IsDevelopment())
+            {
+                app.UseHsts(h => h.MaxAge(days: 365).Preload().IncludeSubdomains());
+            }//this will enforce that the first request is made through https
 
 
             app.UseDeveloperExceptionPage();
