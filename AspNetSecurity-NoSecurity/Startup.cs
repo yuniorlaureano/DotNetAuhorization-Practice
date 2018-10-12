@@ -20,7 +20,12 @@ namespace AspNetSecurity_NoSecurity
         {
             _env = env;
         }
-        
+
+        /*
+         *To avoid open redirect attack, we should verify if the redirect url is a local url by using:
+         * if(!Url.IsLocalUrl(returnUrl)){ return BadRequest(); }
+         */
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
