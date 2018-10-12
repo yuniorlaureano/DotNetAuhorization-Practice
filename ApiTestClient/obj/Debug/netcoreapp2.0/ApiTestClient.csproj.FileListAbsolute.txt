@@ -1,0 +1,11 @@
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\bin\Debug\netcoreapp2.0\ApiTestClient.deps.json
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\bin\Debug\netcoreapp2.0\ApiTestClient.runtimeconfig.json
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\bin\Debug\netcoreapp2.0\ApiTestClient.runtimeconfig.dev.json
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\bin\Debug\netcoreapp2.0\ApiTestClient.dll
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\bin\Debug\netcoreapp2.0\ApiTestClient.pdb
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\obj\Debug\netcoreapp2.0\ApiTestClient.csprojResolveAssemblyReference.cache
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\obj\Debug\netcoreapp2.0\ApiTestClient.csproj.CoreCompileInputs.cache
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\obj\Debug\netcoreapp2.0\ApiTestClient.AssemblyInfoInputs.cache
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\obj\Debug\netcoreapp2.0\ApiTestClient.AssemblyInfo.cs
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\obj\Debug\netcoreapp2.0\ApiTestClient.dll
+C:\Users\Roland\Dropbox\Pluralsight\8-ASPNETCoreSecurity\m1\ApiTestClient\obj\Debug\netcoreapp2.0\ApiTestClient.pdb
