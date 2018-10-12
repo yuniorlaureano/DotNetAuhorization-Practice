@@ -47,6 +47,12 @@ namespace AspNetSecurity_NoSecurity
                 app.UseHsts(h => h.MaxAge(days: 365).Preload().IncludeSubdomains());
             }//this will enforce that the first request is made through https
 
+            //cross script policy
+            app.UseCsp(options => {
+                options.DefaultSources(s => s.Self())
+                .StyleSources(s => s.Self().CustomSources("maxcdn.bootstrapcdn.com"))
+                .ReportUris(r => r.Uris("/report"));
+            });
 
             app.UseDeveloperExceptionPage();
 
