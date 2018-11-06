@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AspNetSecurity_NoSecurity.Repositories;
+using AspNetSecurityNoSecurity.AuthorizationPractice.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -29,6 +30,7 @@ namespace AspNetSecurity_NoSecurity
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDataProtection();
 
             services.AddCors(options => 
             {
@@ -44,6 +46,7 @@ namespace AspNetSecurity_NoSecurity
             services.AddSingleton<ConferenceRepo>();
             services.AddSingleton<ProposalRepo>();
             services.AddSingleton<AttendeeRepo>();
+            services.AddSingleton<PurposeStringConstant>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using AspNetSecurity_NoSecurity.Models;
 using AspNetSecurity_NoSecurity.Repositories;
+using AspNetSecurityNoSecurity.AuthorizationPractice.Models;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetSecurity_NoSecurity.Controllers.API
@@ -10,7 +12,7 @@ namespace AspNetSecurity_NoSecurity.Controllers.API
     {
         private readonly ProposalRepo repo;
 
-        public ProposalController(ProposalRepo repo)
+        public ProposalController(ProposalRepo repo, IDataProtectionProvider dataProtectionProvider, PurposeStringConstant purposeStringConstant)
         {
             this.repo = repo;
         }
