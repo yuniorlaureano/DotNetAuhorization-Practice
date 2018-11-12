@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using AspNetSecurity_NoSecurity.Repositories;
@@ -8,8 +9,12 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace AspNetSecurity_NoSecurity
 {
@@ -29,6 +34,11 @@ namespace AspNetSecurity_NoSecurity
 
         public void ConfigureServices(IServiceCollection services)
         {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+            var config = builder.Build();
+
             services.AddMvc();
             services.AddDataProtection();
 
@@ -47,6 +57,10 @@ namespace AspNetSecurity_NoSecurity
             services.AddSingleton<ProposalRepo>();
             services.AddSingleton<AttendeeRepo>();
             services.AddSingleton<PurposeStringConstant>();
+
+            services.AddDbContext<IdentityDbContext>(options => options.UseSqlServer(config.GetConnectionString("DefaultConnection"), sqloptions => sqloptions.MigrationsAssembly("AspNetSecurity-NoSecurity")));
+
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<IdentityDbContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,6 +90,8 @@ namespace AspNetSecurity_NoSecurity
 
             //This allow other domain to access our endpoints
             app.UseCors(c => c.AllowAnyOrigin());
+
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
